@@ -6,6 +6,7 @@ $bg-light-dark-mode: #1c1c1f;
 $text-color-dark-mode: #abb2bf;
 $text-color-dark-mode-accent: lighten($text-color-dark-mode, 10%);
 $border-color-dark-mode: #47494f;
+$preview-bg-color-dark-mode: #dddddd;
 
 * {
   transition: background-color 0.3s ease, border-color 0.3s ease;
@@ -423,6 +424,10 @@ $border-color-dark-mode: #47494f;
   .ngb-dp-weekdays,
   .ngb-dp-month {
     background-color: $bg-light-dark-mode;
+  }
+
+  object.preview-sticky {
+    background-color: $preview-bg-color-dark-mode;
   }
 }
 
